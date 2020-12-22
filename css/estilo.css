@@ -1,0 +1,258 @@
+.parrafo {
+
+	color: #05204A;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #C9C19F; opacity: 0.8;
+	font-family: 'Arsenal', sans-serif;
+	text-align: justify;
+	display: flex;
+	margin: 4px;
+   	padding: 5px;
+   	border: 1px solid #04080F;
+   	border-radius: 7pt;
+   	-webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   	-webkit-order: 2;
+           order: 2;
+
+
+}
+
+.parrafoEquipo {
+
+	color: #0A0908;
+	font-size: 18px;
+	text-align: justify;
+	font-weight: bold;
+
+	padding-right: 7px;
+	padding-left: 7px;
+
+}
+
+
+#navegacion li {
+
+	display: inline;
+	padding-left: 4px;
+	padding-right: 4px;
+
+	transition-duration: 0.5s;
+
+
+
+}
+
+li:hover{
+
+	transition: width 2s, height 2s, transform 5s;
+
+
+}
+
+
+.botonInicio {
+
+	border: 1px solid #04080F; 
+	padding: 10px; 
+	background-color: #B3B6B7; 
+	color: #131B23;
+	text-decoration: none;
+	text-transform: uppercase; 
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	border-radius: 50px;
+	width: 100px;
+	display:block;
+  	margin-left: auto;
+  	margin-right: auto;
+	transition-duration: 0.5s;
+
+}
+
+.botonInicio:hover {
+
+	background-color: #B3B6B7;
+	color: white;
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pie {
+
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-areas: "footer footer footer"; 
+
+
+}
+
+.pie .footer {
+
+	font-weight: bold; 
+	font-family: 'Arsenal';
+	font-size: 20px;
+
+}
+
+.pie .footer1 {
+
+	border: 1px solid #191919;
+
+}
+
+.pie .footer1:hover{
+
+
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px #0A0F0D;
+	-webkit-box-shadow: 0px 0px 15px 15px #0A0F0D;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+
+}
+
+.contenedor:hover {
+
+	opacity: 1;
+	visibility: visible;
+
+}
+
+.contenedor:hover {
+	-webkit-transform:scale(1.2);transform:scale(1.2);
+}
+
+.contenedor {overflow:hidden;}
+
+
+
+
+
+
+
+h1 {
+  color: #040F0F;
+  font-family: ;
+  font-size: 300%;
+}
+
+h1 {
+
+	font-family: 'Arsenal', sans-serif;
+}
+
+div {
+
+	font-family: 'Arsenal', sans-serif;
+	font-size: 150%;
+	font-style: italic;
+}
+
+ol {
+	color: #648381;
+
+	font-style: oblique;
+
+	font-size: 100%;
+
+	font-family: 'Arsenal', sans-serif;
+
+
+}
+
+h2 {
+	font-family: 'Merriweather', sans-serif;
+}
+
+h3 {
+	font-family: 'Arsenal', sans-serif;
+}
+
+
+html {
+  height: 100%;
+}
+
+img {
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+p {
+	font-family: "Merriweather";
+}
+
+ul {
+	font-family: 'Roboto Condensed', sans-serif;
+
+	font-style: bold;
+
+  	
+  	background: #B3B6B7;
+
+
+  	padding: 10px;
+
+
+}
+
+
+
+
+body {
+
+	height: 100%;
+
+	background-image: 100%;
+
+	background-image: url(hierba-futbol.jpg);
+
+}
+
+nav {
+	border-top: solid 5px #22333B;
+	border-left: solid 5px #22333B;
+	border-right: solid 5px #22333B;
+	border-bottom: solid 5px #22333B;
+
+	display: flex;
+
+	justify-content: center;
+
+	height: 75px;
+
+	-webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   	-webkit-order: 1;
+           order: 1;
+
+
+
+
+}
+
+header, footer {
+
+   display: block;
+   margin: 4px;
+   padding: 5px;
+   min-height: 100px;
+   border: 1px solid #04080F;
+   border-radius: 7pt;
+ 	
+ 	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,107,189,1) 78%, rgba(0,212,255,1) 100%);  
+
+ 
+
+   }
+
+
